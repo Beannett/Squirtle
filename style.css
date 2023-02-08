@@ -1,0 +1,129 @@
+/* squirtle style*/
+
+/* import of google font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.outercontainer {
+    border: 3px solid black;
+    max-width: 1900;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+header {
+    background-color: darkturquoise;
+    position: relative;
+}
+
+#logo {
+    max-width: 150px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: auto;
+}
+
+#title {
+    font-size: 123px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+}
+
+/* navigating the abyss */
+
+nav {
+    text-align: center;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    display: inline;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    padding-right: 30px;
+}
+
+nav ul li a:hover {
+    color: mediumblue ;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* INTRO Ojasæofijer */
+
+.introcontainer {
+    background-color: cornflowerblue;
+    overflow: auto;
+}
+
+.imagecontainer {
+    max-width: 700px;
+    margin: 0;
+    float: left;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.introimage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid black;
+    box-sizing: border-box;
+}
+
+.introtext {
+    float: left;
+    max-width: 950px;
+    margin: 0;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+/* TOES */
+footer {
+background-color: darkturquoise;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+border-top: 3px solid black;
+}
+footer p {
+    margin: 0;
+}
+
+/* gallery things */
+
+.gallerycontainer {
+    background-color: cornflowerblue;
+    overflow: auto;
+}
+
+.galleryimage {
+    width: 25%;
+    height: 180px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 5px solid black;
+    outline-offset: -10px;
+}
+
+/* this shit about styling and stuff */
+
+.aboutcontainer {
+    background-color: cornflowerblue;
+    overflow: auto;
+}
