@@ -1,0 +1,83 @@
+@media screen and (max-width: 900px){
+    img {
+        max-width: 250%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .stats {
+        padding-left: 1px !important;
+        max-width: 100% ;
+    }
+    .aboutcontainer {
+        display: block;
+    }
+    .aboutimage1 {
+        max-width: 100% ;
+        height: auto;
+        padding: 5px;
+        box-sizing: border-box;
+        float: none;
+        padding-left: 0px;
+    }
+
+    .abouttext1 {
+        border: 3px solid black;
+        max-width: 100%;
+        box-sizing: border-box;
+        float: none;
+        background-color: #a4a4a4;
+        padding-left: 7px;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .aboutimage2 {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        box-sizing: border-box;
+        float: none;
+        padding-left: 0px;
+    }
+
+    .abouttext2 {
+        border: 3px solid black;
+        max-width: 100%;
+        box-sizing: border-box;
+        float: none;
+        background-color: #a4a4a4;
+        padding-left: 7px;
+        margin-top: 20px;
+    }
+
+    .aboutimage3 {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        box-sizing: border-box;
+        float: none;
+        padding-left: 0px;
+    }
+
+    .abouttext3 {
+        border: 3px solid black;
+        max-width: 100%;
+        box-sizing: border-box;
+        float: none;
+        background-color: #a4a4a4;
+        padding-left: 7px;
+        margin-top: 20px;
+    }
+}
+
+/* For laptop */
+
+@media screen and (max-width: 1600px){
+    .aboutimage1 {
+        padding-left: 0;
+    }
+    .aboutimage3 {
+        padding-left: 0;
+    }
+}
